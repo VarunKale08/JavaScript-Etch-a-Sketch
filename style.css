@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    /* display: flex;
+    justify-content: center; */
+    /*align-items: center;
+    /* text-align: center; */
+    height: 100vh;
+    background-color: rgb(73, 72, 72);
+}
+
+#title-container{
+    
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+
+ /* align-items: center;    */
+}
+
+#title-text{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#sketch-container {
+    /* to get the grid layout of 16 colomuns */
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    width: 960px;
+    height: 600px;
+    /* border: 2px solid red ; */
+    margin-top: 35px;
+
+    /* centre the container */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.matrix-cell{
+    background-color: #eee;
+    /* border: 1px solid #ccc; */
+    padding: 1px 1px;
+  }
+
+.erase-button{
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    cursor: pointer;
+    width: 150px;
+    height: 80px;
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.erase-button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* adding the click button effect */
+.erase-button:active{
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+.erase-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
